@@ -1,0 +1,22 @@
+.active {
+  background: linear-gradient(
+    90deg,
+    #ffffff12 0%,
+    rgba(74, 104, 119, 0.14) 100%
+  );
+  color: white;
+  backdrop-filter: blur(26px);
+  position: relative;
+}
+.active::before {
+  content: url("/asset/selected.png");
+  position: absolute;
+  left: 0;
+  top: 11px;
+}
+.option {
+  @apply flex justify-start items-center space-x-4 w-full h-12 pl-4 my-4 transition-all duration-300 ease-out;
+}
+.image_active{
+  filter: brightness(2)
+}
