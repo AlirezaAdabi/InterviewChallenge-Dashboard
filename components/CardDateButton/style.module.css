@@ -1,0 +1,16 @@
+.btn {
+  border: 1px solid #e7e8f2;
+  border-radius: 99px;
+  color: #8a92a6;
+  padding: 2px 8px;
+  width: 42px;
+  height: 21px;
+}
+.btn_active {
+  border: 1px solid #0d3c6c;
+  border-radius: 99px;
+  color: #0d3c6c;
+  padding: 2px 8px;
+  width: 42px;
+  height: 21px;
+}
