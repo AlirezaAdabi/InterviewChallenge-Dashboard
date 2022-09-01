@@ -12,7 +12,7 @@ const Operator = ({ name, station }: Props) => {
         <span className="capitalize text-[#8A92A6]">{name}</span>
       </div>
 
-      <span className="text-[#8A92A6]/60"> STATION-{station}</span>
+      <span className="text-[#8A92A6]/60 text-[14px]"> STATION-{station}</span>
     </div>
   );
 };
