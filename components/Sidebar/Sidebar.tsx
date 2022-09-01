@@ -7,7 +7,7 @@ import Link from "next/link";
 const Sidebar = () => {
   return (
     <aside
-      className={`${style.navbar} h-screen min-w-[240px] flex justify-between flex-col`}
+      className={`${style.navbar} h-screen fixed min-w-[240px] flex justify-between flex-col`}
     >
       <div className="w-full">
         <Link href="/">

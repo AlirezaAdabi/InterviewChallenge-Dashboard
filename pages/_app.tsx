@@ -10,7 +10,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/Icon.png" />
       </Head>
       <Sidebar />
-      <Component {...pageProps} />
+      <div className="w-full ml-[240px]">
+        <Component {...pageProps} />
+      </div>
     </div>
   );
 }
