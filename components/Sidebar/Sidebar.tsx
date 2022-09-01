@@ -2,16 +2,21 @@ import React from "react";
 import SidebarButton from "../SidebarButton";
 import Profile from "../Profile";
 import style from "./style.module.css";
-
+import Link from "next/link";
 
 const Sidebar = () => {
-  
   return (
     <aside
       className={`${style.navbar} h-screen min-w-[240px] flex justify-between flex-col`}
     >
       <div className="w-full">
-        <img src={"/Logo.png"} className="pl-4 my-9" />
+        <Link href="/">
+          <a>
+            {" "}
+            <img src={"/Logo.png"} className="pl-4 my-9" />
+          </a>
+        </Link>
+
         <ul className="text-[#928EA0]">
           <SidebarButton
             label="Reports"

@@ -1,12 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import style from "./style.module.css";
 
 interface Props {
   label: string;
+  isActive?: boolean;
 }
 
-const CardDateButton = ({ label }: Props) => {
+const CardDateButton = ({ label, isActive = false }: Props) => {
   const [active, setActive] = useState<boolean>(false);
+  useEffect(() => {
+    console.log(isActive);
+
+    if (isActive) {
+      setActive(true);
+    }
+  }, [isActive]);
 
   return (
     <button

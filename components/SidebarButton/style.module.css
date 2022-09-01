@@ -17,6 +17,6 @@
 .option {
   @apply flex justify-start items-center space-x-4 w-full h-12 pl-4 my-4 transition-all duration-300 ease-out;
 }
-.image_active{
-  filter: brightness(2)
+.image_active {
+  filter: brightness(2);
 }

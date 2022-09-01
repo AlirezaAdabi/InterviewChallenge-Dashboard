@@ -20,10 +20,10 @@ const Card = ({ date, startTime, endTime, children }: Props) => {
           <img src="/asset/edit-2.png" />
         </button>
       </div>
-      <div className="flex w-full justify-center space-x-1.5 text-xs mb-4">
-        <CardDateButton label="Mon" />
-        <CardDateButton label="Tue" />
-        <CardDateButton label="Wed" />
+      <div className="flex w-full justify-center space-x-2 text-xs mb-4">
+        <CardDateButton label="Mon" isActive />
+        <CardDateButton label="Tue" isActive />
+        <CardDateButton label="Wed" isActive />
         <CardDateButton label="Thu" />
         <CardDateButton label="Fri" />
         <CardDateButton label="Sat" />
