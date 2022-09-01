@@ -16,7 +16,7 @@
 .btn_active::after {
   content: "";
   position: absolute;
-  bottom: -8px;
+  bottom: -10px;
   left: 0;
   width: 100%;
   height: 2px;
