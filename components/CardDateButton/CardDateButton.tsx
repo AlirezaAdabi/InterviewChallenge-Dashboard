@@ -6,7 +6,7 @@ interface Props {
 }
 
 const CardDateButton = ({ label }: Props) => {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState<boolean>(false);
 
   return (
     <button
