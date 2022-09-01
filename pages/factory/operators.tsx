@@ -4,6 +4,7 @@ import Card from "../../components/Card";
 import Content from "../../components/Content";
 import Line from "../../components/Line";
 import Navbar from "../../components/Navbar";
+import Operator from "../../components/Operator";
 
 const Operators = () => {
   return (
@@ -16,16 +17,42 @@ const Operators = () => {
       <Content>
         <div className="flex flex-col md:flex-row w-full justify-between">
           <Card date="Morning" startTime="7:00 AM" endTime="2:00 PM">
-            <Line label="Line 1"></Line>
+            <Line label="Line 1">
+              <div>
+                <Operator name="savannah nguyen" station={1} />
+                <Operator name="Guy Hawkins" station={2} />
+                <Operator name="Eleanor Pena" station={3} />
+                <Operator name="Brookl Simmons" station={4} />
+                <Operator name="Kathryn Murphy" station={5} />
+              </div>
+            </Line>
           </Card>
           <Card date="Afternoon" startTime="2:00 PM" endTime="9:00 PM">
             <div>
-              <Line label="Line 1"></Line>
-              <Line label="Line 2"></Line>
+              <Line label="Line 1">
+                <div>
+                  {" "}
+                  <Operator name="savannah nguyen" station={1} />
+                  <Operator name="Guy Hawkins" station={2} />
+                  <Operator name="Eleanor Pena" station={3} />
+                  <Operator name="Brookl Simmons" station={4} />
+                </div>
+              </Line>
+              <Line label="Line 2">
+                <div>
+                  <Operator name="savannah nguyen" station={1} />
+                  <Operator name="Guy Hawkins" station={2} />
+                </div>
+              </Line>
             </div>
           </Card>
           <Card date="Night" startTime="9:00 AM" endTime="4:00 AM">
-            <Line label="Line 2"></Line>
+            <Line label="Line 2">
+              <div>
+                <Operator name="savannah nguyen" station={1} />
+                <Operator name="Guy Hawkins" station={2} />
+              </div>
+            </Line>
           </Card>
         </div>
       </Content>

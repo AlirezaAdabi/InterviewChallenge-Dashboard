@@ -7,7 +7,7 @@ interface Props {
 }
 const Content = ({ children }: Props) => {
   return (
-    <div className="flex flex-col bg-[#F8F8FC] h-screen px-6">
+    <div className="flex flex-col bg-[#F8F8FC] h-full px-6">
       <Action label="Manage Shifts" btnLabel="+ Add Shift" />
       <div>{children}</div>
     </div>

@@ -8,7 +8,7 @@ interface Props {
 
 const Action = ({ label, btnLabel }: Props) => {
   return (
-    <div className="flex w-full justify-between mt-14 mb-8 items-baseline">
+    <div className="flex w-full justify-between mt-14 mb-3 items-baseline">
       <div className="flex text-[#364066] text-2xl space-x-2 items-center">
         <Link href="">
           <a>

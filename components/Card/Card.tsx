@@ -10,7 +10,7 @@ interface Props {
 
 const Card = ({ date, startTime, endTime, children }: Props) => {
   return (
-    <div className="flex flex-col justify-start items-center w-[368px] bg-white rounded-lg border border-[#E7E8F2] h-fit ">
+    <div className="flex flex-col justify-start items-center w-[368px] bg-white rounded-lg border border-[#E7E8F2] h-fit">
       <div className="flex justify-between px-4 w-full text-[#8A92A6] my-4 items-center">
         <div>
           <span>{date}</span> | <span>{startTime}</span> -{" "}

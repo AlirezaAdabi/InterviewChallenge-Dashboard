@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import Navbar from "../components/Sidebar";
+import Sidebar from "../components/Sidebar";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <link rel="icon" href="/Icon.png" />
       </Head>
-      <Navbar />
+      <Sidebar />
       <Component {...pageProps} />
     </div>
   );
