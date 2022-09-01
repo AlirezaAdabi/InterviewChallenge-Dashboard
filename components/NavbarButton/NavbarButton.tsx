@@ -14,7 +14,7 @@ const NavbarButton = ({ url, label }: Props) => {
     <li>
       <Link href={url}>
         <a className={`${style.btn} ${isActive ? style.btn_active : ""}`}>
-          <span className="uppercase">{label}</span>
+          <span className="uppercase font-semibold">{label}</span>
         </a>
       </Link>
     </li>
